@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Manipular sistemas de potabilización**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/921200_CF6_AGUA_Y_SANAMIENTO/](https://ecored-sena.github.io/921200_CF6_AGUA_Y_SANAMIENTO/)
 
 #
 
