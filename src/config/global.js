@@ -34,6 +34,12 @@ export default {
               'Principales conceptos asociados al sistema de potabilización',
             hash: 't_2_1',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Procesos y operaciones unitarias',
+            hash: 't_2_2',
+          },
         ],
       },
       {
@@ -149,7 +155,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Agua potable',
+      tema: 'Agua potable.',
       referencia:
         'Canal CNC Valledupar. (2019). Manaure y González con la peor agua potable en el Cesar. [Archivo de video]. YouTube.',
       tipo: 'Video',
@@ -256,12 +262,12 @@ export default {
     },
     {
       referencia:
-        'Ministerio de desarrollo económico. (2010). Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico [RAS]. título A. ',
+        'Ministerio de desarrollo económico. (2010). Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico [RAS]. título A.',
       link: '',
     },
     {
       referencia:
-        'Ministerio de desarrollo económico. (2010). Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico [RAS]. título B',
+        'Ministerio de desarrollo económico. (2010). Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico [RAS]. título B.',
       link: '',
     },
     {
@@ -285,6 +291,50 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Sandra Patricia  Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Sergio Arturo Medina Castillo',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Javier Ricardo Luna Pineda',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cardenas',
+        cargo: 'Evaluador Instruccional',
+        centro: 'Centro de diseño y metrologia - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Jesus Ricardo Arias Munevar',
+        cargo: 'Instructor Ambiental',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Lubin Andrés Hernández Sanabria',
+        cargo: 'Instructor Ambiental',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Xiomara Becerra Aldana',
+        cargo: 'Instructora Ambiental',
+        centro: 'Centro de gestión industrial - Regional Distrito Capital ',
+      },
     ],
     desarrolloProducto: [
       {
@@ -292,6 +342,11 @@ export default {
         cargo: 'Responsable del equipo',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
         nombre: 'Diana Carolina Acevedo Barón',
@@ -311,7 +366,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Mayra Alejandra Alvarez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

@@ -299,13 +299,6 @@
               p.text-center <b>Compuestos de azufre:</b> los principales compuestos azufrados presentes en un agua son: H2S, S2-, SO3, S2O32- y SO42- (p. 10).
 
     .row.mb-5.mb-md-5.mb-lg-5.justify-content-center(data-aos="fade-left")
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-primario.mb-5.mb-md-0(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img19.png')})`}")
-            .tarjeta-flip__contenido.p-2.p-xl-3
-              p.text-center <b>Compuestos orgánicos:</b> las materias orgánicas que puede contener un agua son muy numerosas y variadas, habiéndose aislado más de 1.000 compuestos orgánicos diferentes en un agua mediante técnicas de alto poder de separación (p.19).
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario.mb-5.mb-md-0(@mouseover="indicadorTarjetaFlip = false")
@@ -320,6 +313,14 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img21.png')})`}")
             .tarjeta-flip__contenido.p-2.p-xl-3
               p.mb-4.mt-4.text-center <b>Metales en el agua:</b> el agua puede presentar concentraciones de aluminio, antimonio, arsénico, boro, cadmio, cobre, cromo, hierro, manganeso, mercurio, níquel, plomo, sodio, selenio, entre otros.
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-primario.mb-5.mb-md-0(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img19.png')})`}")
+            .tarjeta-flip__contenido.p-2.p-xl-3
+              p.text-center <b>Compuestos orgánicos:</b> las materias orgánicas que puede contener un agua son muy numerosas y variadas, habiéndose aislado más de 1.000 compuestos orgánicos diferentes en un agua mediante técnicas de alto poder de separación (p.19).
 
     h4.mb-4 Características microbiológicas
 
@@ -529,6 +530,8 @@
               .col-12.col-md-10.col-lg-10
                 p <em>Fuente: Aguas de occidente. (s.f). Preguntas frecuentes sobre la calidad del agua en los sistemas operados por aguas regionales EPM S.A. E.S.P [Tabla] (p.5).</em>
 
+    p.mb-5 La siguiente tabla nos presenta los niveles de riesgo de acuerdo con la clasificación IRCA y el significado de cada uno de esos niveles.
+    
     .row.justify-content-center
       .col-12.col-md-10.col-lg-10
         .row.justify-content-center
@@ -672,14 +675,8 @@
 
     Separador 
 
-    .row.mb-4(data-aos="fade-right")
-      .col-12.col-lg-5
-        .tarjeta.color-secundario.p-1
-          .row.justify-content-center.align-items-center
-            .col-lg-1.width2_lg
-              img.ms-4.img23.d-none.d-lg-block(src='@/assets/curso/tema2/img10.svg')
-            .col-lg-11
-              h3.m-0.text-white.text-center Procesos y operaciones unitarias
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
+        h2 2.2 Procesos y operaciones unitarias
     
     p.mb-5 Los procesos y operaciones unitarias son etapas que incluyen cambios físicos o químicos para realizar el tratamiento del agua cruda, y los procesos que se seleccionan dependen del nivel de complejidad del sistema.
 
@@ -712,7 +709,7 @@
           li 
             <i class="fas fa-tint" style= "color:#3F97C4 !important;"></i>
             | Alto. 
-        p La siguiente talba nos presenta la asignación del nivel de complejidad de acuerdo al RAS 2000, título A.
+        p La siguiente tabla nos presenta la asignación del nivel de complejidad de acuerdo al RAS 2000, título A.
 
     .row.justify-content-center
       .col-12.col-md-10.col-lg-10

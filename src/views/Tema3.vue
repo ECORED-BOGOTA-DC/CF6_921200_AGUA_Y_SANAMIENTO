@@ -16,34 +16,56 @@
       .row.justify-content-center.align-items-center
         .col-lg-12(data-aos="fade-down")
           h4 1. Operación segura de la planta. 
-          p.m-0 Mantener las variables de procesos dentro de los límites seguros de operación. 
-          p.m-0 Detección de situaciones peligrosas. 
-          p.m-0 Prevención de procedimientos peligrosos de operación. 
-          p.m-0 Anticiparse a condiciones particulares de operación por medio del conocimiento oportuno de parámetros que incidirán en la operación de la planta. 
-          p.m-0 Producción de archivos históricos de datos de operación de la planta que permitan análisis o estudios posteriores tendientes a optimizar el proceso. 
+          ul.lista-ul.mb-4.ms-0.ms-lg-3
+            li.m_bottom-4 
+              <i class="fas fa-tint" style= "color:#3F97C4 !important;"></i>
+              | Mantener las variables de procesos dentro de los límites seguros de operación. 
+            li.m_bottom-4 
+              <i class="fas fa-tint" style= "color:#3F97C4 !important;"></i>
+              | Detección de situaciones peligrosas. 
+            li.m_bottom-4 
+              <i class="fas fa-tint" style= "color:#3F97C4 !important;"></i>
+              | Prevención de procedimientos peligrosos de operación. 
+            li.m_bottom-4 
+              <i class="fas fa-tint" style= "color:#3F97C4 !important;"></i>
+              | Anticiparse a condiciones particulares de operación por medio del conocimiento oportuno de parámetros que incidirán en la operación de la planta. 
+            li.m_bottom-4 
+              <i class="fas fa-tint" style= "color:#3F97C4 !important;"></i>                  
+              | Producción de archivos históricos de datos de operación de la planta que permitan análisis o estudios posteriores tendientes a optimizar el proceso. 
     
     .row.align-items-center
       .col-lg-12
         .row.justify-content-start.align-items-center(data-aos="flip-down")
           .col-lg-4
-            .bg8.p-4.rounded-3.mb-4
+            .bg8-2.p-4.rounded-3.mb-4
               .row
                 .col-lg-12(data-aos="fade-down")
                   h4 2. Tasa de producción.
-                  p.m-0 Mantener la disponibilidad y confiabilidad del servicio.
-                  p.m-0 Controlar el volumen de producción de agua de acuerdo con la oferta y a la demanda. Registro permanente de los caudales afluentes y efluentes. 
+                  ul.lista-ul.mb-4.ms-0.ms-lg-3
+                    li.m_bottom-4 
+                      <i class="fas fa-tint" style= "color:#3F97C4 !important;"></i>
+                      | Mantener la disponibilidad y confiabilidad del servicio.
+                    li.m_bottom-4 
+                      <i class="fas fa-tint" style= "color:#3F97C4 !important;"></i>
+                      | Controlar el volumen de producción de agua de acuerdo con la oferta y a la demanda. Registro permanente de los caudales afluentes y efluentes. 
           .col-lg-4    
-            .bg8.p-4.mb-4.height_tar1-t3
+            .bg8-2.p-4.mb-4.height_tar1-t3
               .row
                 .col-lg-12(data-aos="fade-down")
                   h4 3. Calidad del producto. 
-                  p Mantener la composición del efluente de la planta dentro de los estándares de calidad especificados. 
+                  ul.lista-ul.mb-4.ms-0.ms-lg-3
+                    li.m_bottom-4 
+                      <i class="fas fa-tint" style= "color:#3F97C4 !important;"></i>
+                      |  Mantener la composición del efluente de la planta dentro de los estándares de calidad especificados. 
           .col-lg-4
-            .bg8.p-4.mb-4.height_tar1-t3
+            .bg8-2.p-4.mb-4.height_tar1-t3
               .row
                 .col-lg-12(data-aos="fade-down")
-                  h4 4. Costos de operación de la planta 
-                  p Costos de operación de la planta al menor costo posible, respetando las normas de calidad (p.130).
+                  h4 4. Costos de operación de la planta. 
+                  ul.lista-ul.mb-4.ms-0.ms-lg-3
+                    li.m_bottom-4 
+                      <i class="fas fa-tint" style= "color:#3F97C4 !important;"></i>
+                      |  Costos de operación de la planta al menor costo posible, respetando las normas de calidad (p.130).
     
     Separador
 
@@ -54,7 +76,7 @@
       p Es la tecnología que permite medir magnitudes físicas y convertirlas en señales eléctricas, neumáticas o hidráulicas para transmitirla a elementos de control final.
 
       .row.mb-5(data-aos="fade-right")
-        .col-12.col-lg-3
+        .col-lg-3
           .tarjeta.color-secundario.p-1
             .row.justify-content-center.align-items-center
               .col-lg-1
@@ -106,7 +128,7 @@
                 p Pueden utilizarse Streaming Current Monitors (SCM) los cuales son monitores de corriente de reestabilización de los coloides presentes en el agua para evaluar en continuo el resultado de la adición de un coagulante sobre partículas coloidales durante el proceso de coagulación. Este resultado se caracteriza por la medición de una corriente electrocinética generada entre dos electrodos en una muestra de agua cruda a la cual se le añadió un coagulante. Esta corriente es generada por el reacomodamiento de los iones que se han extraído de las partículas adsorbidas sobre las paredes de una celda de medición.
 
       .row.align-items-center.mb-4.mb-lg-0(data-aos="fade-right")
-        .col-12.col-lg-3
+        .col-lg-3.col-xl-4.col-xxl-3
           .tarjeta.color-secundario.p-1
             .row.justify-content-center.align-items-center
               .col-lg-2.width2_lg
@@ -123,7 +145,7 @@
             img(src='@/assets/curso/tema3/img08.png')
     
       .row.align-items-center.mb-4(data-aos="fade-right")
-        .col-12.col-lg-4
+        .col-lg-3.col-xl-4.col-xxl-3
           .tarjeta.color-secundario.p-1
             .row.justify-content-center.align-items-center
               .col-lg-2.width1_lg
@@ -144,7 +166,7 @@
           p En los niveles de complejidad del sistema medio alto y alto es conveniente utilizar medidores manómetricos, de membrana, de presión diferencial de diafragma, de desplazamiento a barra de torsión, conductivos, capacitivos, ultrasónicos y de radiación.
 
       .row.align-items-center(data-aos="fade-right")
-        .col-12.col-lg-4
+        .col-lg-3.col-xl-4.col-xxl-3
           .tarjeta.color-secundario.p-1
             .row.justify-content-center.align-items-center
               .col-lg-2.width1_lg
@@ -249,7 +271,7 @@
                 | Tipo de conexión realizada entre la válvula y la tubería del proceso. Entre los diferentes tipos de válvulas deben acondicionarse principalmente las siguientes: Válvulas de globo, Válvulas de mariposa, Válvulas de bola, Válvulas de diafragma, Válvulas tapón.
 
       .row.align-items-center.mb-5(data-aos="fade-right")
-        .col-12.col-lg-4
+        .col-lg-3.col-xl-4.col-xxl-3
           .tarjeta.color-secundario.p-1
             .row.justify-content-center.align-items-center
               .col-lg-2.width1_lg
@@ -301,7 +323,7 @@
       p.mb-5 El RAS 2000, título B, define que las válvulas deben cumplir con ciertas especificaciones entre los cuales se encuentran las descritas a continuación.
 
       .row.mb-5(data-aos="fade-right")
-        .col-12.col-lg-4
+        .col-lg-4
           .tarjeta.color-secundario.p-1
             .row.justify-content-center.align-items-center
               .col-lg-1
@@ -348,7 +370,7 @@
               h4 Válvulas de corte o cierre:
               p.m-0 Deben localizarse al comienzo de la línea de conducción y al final de ésta si la presión es mayor que 50 m.c.a. Para todos los niveles de complejidad del sistema, se debe hacer un estudio de los transientes hidráulicos ocasionados por la operación de las válvulas en el sistema y el diseño debe incluir recomendaciones sobre su operación.
               p.m-0 En aquellos casos en que la tubería presenta grandes desniveles debido a la topografía del terreno, se debe verificar que para la condición del cierre de una válvula de corte. 
-              p.m-0 Las válvulas de cierre o corte deben cumplir con las correspondientes normas técnicas colombianas y si estas no existen con las Normas Técnicas American Water Works Association [AWWA], American Society for Testing and Materials [ASTM], Deutsches Institut für Normung [DIN], International Organization for Standardization [ISO], American Petroleum Institute [API] o cualquier otra norma de reconocimiento internacional equivalente, previa aprobación del Ministerio de Ambiente Vivienda y Desarrollo Territorial, para el caso de los niveles de complejidad del sistema bajo y medio o de la persona prestadora del servicio para los niveles de complejidad del sistema medio alto y alto. 
+              p.m-0 Las válvulas de cierre o corte deben cumplir con las correspondientes normas técnicas colombianas y si estas no existen con las Normas Técnicas American <em>Water Works Association</em> [AWWA], <em>American Society for Testing and Materials</em> [ASTM], <em>Deutsches Institut für Normung</em> [DIN], <em>International Organization for Standardization</em> [ISO], <em>American Petroleum Institute</em> [API] o cualquier otra norma de reconocimiento internacional equivalente, previa aprobación del Ministerio de Ambiente Vivienda y Desarrollo Territorial, para el caso de los niveles de complejidad del sistema bajo y medio o de la persona prestadora del servicio para los niveles de complejidad del sistema medio alto y alto. 
               p.mb-4 La tabla 4 establece algunas de las normas técnicas nacionales e internacionales para diferentes tipos de válvulas de corte. 
 
               p.m-0 <b>Tabla 4.</b> <em>Normas técnicas aplicables a válvulas de corte.</em>
@@ -387,7 +409,7 @@
         figure
           img(src='@/assets/curso/tema3/img20.png')
     
-    p.mb-5 El diseño debe tener en cuenta los siguientes aspectos:
+    p.mb-5 El diseño debe tener en cuenta los siguientes aspectos:   
 
     .bg_slyder.p-4.mb-5(data-aos="fade-left")
       SlyderE(indicadores="derecha")
@@ -406,19 +428,19 @@
                 .lista-ol--cuadro__vineta
                   span.t_num_lista-t3 3
                 p.m_block Cuando en la conducción se encuentre una válvula de línea, debe existir una ventosa aguas arriba o aguas abajo, dependiendo de la pendiente para la aireación durante el llenado y descarga de ésta. 
-              li 
-                .lista-ol--cuadro__vineta
-                  span.t_num_lista-t3 4
-                p.m_block Las ventosas tendrán los siguientes diámetros mínimos: para tuberías con diámetro interno real menor o igual que 100 mm, el diámetro mínimo será de 50 mm. Para tuberías con diámetro interno real mayor que 100 mm, el diámetro mínimo de las ventosas será de 75 mm. En caso de que el diseño hidráulico incluya ventosas con diámetros inferiores a los antes establecidos, éste deberá ser aprobado por la persona prestadora del servicio. 
               li
 
         .row.justify-content-center
-          .col-lg-10
-            ol.lista-ol--cuadro.lista-ol--separador.Lista_t1-2
+          .col-lg-11
+            ol.lista-ol--cuadro.lista-ol--separador.Lista_t1-2              
               li 
                 .lista-ol--cuadro__vineta
+                  span.t_num_lista-t3 4
+                p.m_block Las ventosas tendrán los siguientes diámetros mínimos: para tuberías con diámetro interno real menor o igual que 100 mm, el diámetro mínimo será de 50 mm. Para tuberías con diámetro interno real mayor que 100 mm, el diámetro mínimo de las ventosas será de 75 mm. En caso de que el diseño hidráulico incluya ventosas con diámetros inferiores a los antes establecidos, éste deberá ser aprobado por la persona prestadora del servicio.  
+              li
+                .lista-ol--cuadro__vineta
                   span.t_num_lista-t3 5
-                p.m_block El diseño del diámetro y ubicación de las válvulas de ventosa debe realizarse de forma integrada con el de las válvulas de purga.  
+                p.m_block El diseño del diámetro y ubicación de las válvulas de ventosa debe realizarse de forma integrada con el de las válvulas de purga. 
               li 
                 .lista-ol--cuadro__vineta
                   span.t_num_lista-t3 6
@@ -428,14 +450,14 @@
                   span.t_num_lista-t3 7
                 p.m_block Cada ventosa debe estar protegida por una cámara de inspección accesible, con su respectivo drenaje de aguas y los respiraderos necesarios para garantizar el flujo de aire y estar completamente asegurada. 
               li 
+        
+        .row.justify-content-center
+          .col-lg-10
+            ol.lista-ol--cuadro.lista-ol--separador.Lista_t1-2 
+              li
                 .lista-ol--cuadro__vineta
                   span.t_num_lista-t3 8
                 p.m_block Los dispositivos de entrada de aire deben localizarse de tal modo que no se introduzca agua extraña al sistema. Los dispositivos previstos deben instalarse de tal manera que sus aperturas se sitúen por lo menos un metro (1.0 m) por encima del nivel máximo de agua que pudiera acumularse en el sitio de la ventosa. 
-              li
-
-        .row.justify-content-center
-          .col-lg-10
-            ol.lista-ol--cuadro.lista-ol--separador.Lista_t1-2
               li 
                 .lista-ol--cuadro__vineta
                   span.t_num_lista-t3 9
@@ -445,12 +467,25 @@
                   span.t_num_lista-t3 10
                 p.m_block Como dispositivos automáticos para la entrada o salida de aire de las líneas de conducción pueden utilizarse los siguientes: ventosas de doble efecto para la descarga del aire acumulado durante el llenado y durante la operación normal de la conducción y para la entrada en las operaciones de descarga de agua. Tubos verticales o chimeneas cuando su extremidad superior pueda situarse por encima de la línea piezométrica máxima para la entrada de aire.  
               li
+
+        .row.justify-content-center
+          .col-lg-10
+            ol.lista-ol--cuadro.lista-ol--separador.Lista_t1-2              
+              li
                 .lista-ol--cuadro__vineta
                   span.t_num_lista-t3 11
                 p.m_block En el caso que exista una válvula intermedia en la conducción, ésta debe estar dotada de un paso lateral (by pass) de tal manera que permita el flujo de aire hacia la ventosa. Este paso lateral debe estar dotado de su propia válvula de corte y se debe utilizar cuando: 
                   span La válvula intermedia se localiza en tramos descendentes de la tubería y su apertura no puede realizarse sin causar perjuicios a la estructura.
                   span La válvula intermedia sea del tipo compuerta y la presión en el punto en que estuviese instalada cause un empuje superior a 20 KN. 
               li 
+                .lista-ol--cuadro__vineta
+                  span.t_num_lista-t3 12
+                p.m_block Las válvulas de ventosa deben cumplir con normas técnicas nacionales e internacionales, tales como la Norma Técnica Colombiana correspondiente, la Norma AWWA C512, fabricadas bajo normas internacionales, de reconocimiento internacional, que le aplique y se demuestra mediante certificado de producto. 
+              li 
+                .lista-ol--cuadro__vineta
+                  span.t_num_lista-t3 13
+                p.m_block La localización de las válvulas de ventosa a lo largo de la conducción y su dimensionamiento debe considerar los requerimientos de evacuación de aire presentados durante las operaciones de llenado de las tuberías que conformen la conducción o la red de conducciones, analizando la posibilidad de bloqueo del flujo. 
+              li              
 
     h4 Válvulas de purga o desagüe:
     p.mb-4 En los puntos bajos de la tubería de conducción o cada 350 m, deben colocarse válvulas de desagüe o de limpieza. En estos casos deben tenerse en cuenta los siguientes aspectos:
@@ -623,7 +658,7 @@
           img(src='@/assets/curso/tema3/img27.png')  
 
     .row.mb-5(data-aos="fade-right")
-      .col-12.col-lg-4
+      .col-lg-4
         .tarjeta.color-secundario.p-1
           .row.justify-content-center.align-items-center
             .col-lg-1.width_lg
@@ -659,7 +694,7 @@
           img(src='@/assets/curso/tema3/img29.png')  
 
     .row.mb-5(data-aos="fade-right")
-      .col-12.col-lg-4
+      .col-lg-3.col-xl-4.col-xxl-3
         .tarjeta.color-secundario.p-1
           .row.justify-content-center.align-items-center
             .col-lg-1.width_lg
@@ -675,7 +710,7 @@
         p Son de dos tipos: sales de aluminio o sales de hierro. Los coagulantes con sales de aluminio son el sulfato de aluminio, sulfato de aluminio amoniacal, aluminato de sodio y el policloruro de aluminio. Se recomienda el uso de este último para el tratamiento de aguas blandas y turbias, previa la ejecución de ensayos para la selección de coagulantes. Los coagulantes con sales de hierro son el cloruro férrico, el sulfato férrico y el sulfato ferroso. Para la dosificación en la coagulación por adsorción-neutralización debe tenerse en cuenta la relación estequiométrica entre la dosis del coagulante y la concentración de los coloides, ya que una sobredosis conduce a una reestabilización de las partículas. Para aguas con bajo nivel de alcalinidad, se recomienda aumentar el pH añadiendo hidróxido de calcio (Ca(OH)2). 
 
     .row.mb-4(data-aos="fade-right")
-      .col-12.col-lg-3
+      .col-lg-2.col-xl-3.col-xxl-2
         .tarjeta.color-secundario.p-1
           .row.justify-content-center.align-items-center
             .col-lg-1.width_lg
